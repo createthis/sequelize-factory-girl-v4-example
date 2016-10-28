@@ -1,0 +1,29 @@
+{
+  "name": "sequelize-factory-girl-v4-example",
+  "version": "1.0.0",
+  "description": "A sequelize + factory-girl v4 example",
+  "main": "index.js",
+  "dependencies": {
+    "factory-girl": "^4.0.0-beta.7",
+    "sequelize": "^3.24.6",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "factory-girl": "^4.0.0-beta.7",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --full-trace -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/createthis/sequelize-factory-girl-v4-example.git"
+  },
+  "author": "Jesse CreateThis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/createthis/sequelize-factory-girl-v4-example/issues"
+  },
+  "homepage": "https://github.com/createthis/sequelize-factory-girl-v4-example#readme"
+}

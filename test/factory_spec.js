@@ -14,6 +14,15 @@ describe('factory', function() {
       });
     });
 
+    it('should create two rows in the database', function(done) {
+      Models.products.all().then(function (result) {
+        result.length.should.equal(2);
+        result[0].name.should.equal('Thing One');
+        result[1].name.should.equal('Thing Two');
+        done();
+      });
+    });
+
     it('should cleanUp without errors or warnings', function() {
       factory.cleanUp();
     });
